@@ -1,0 +1,149 @@
+/* Responsiveness */
+
+@media screen and (max-width: 640px) {
+    
+    .container header{
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+    .container header img {
+        width: 110px;
+        margin-right: 20px;
+    }
+
+    .container header .try-it-free {
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .container .heading-container {
+        padding: 30px 20px;
+        gap: 10px;
+
+    }
+    .container .heading-container h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .container .heading-container p {
+        width: 70%;
+        font-size: 9px;
+    }
+
+    .container .heading-container button {
+        font-size: 10px;
+        width: 60%;
+        padding: 12px 35px;
+    }
+
+    .container .heading-container img {
+        width: 80%;
+    }
+
+    .container .stats {
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .stats .summary .infostat {
+        text-align: start;
+    }
+
+    .decorative-bg-desktop {
+        display: none;
+    }
+
+    .decorative-bg-mobile {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        /* margin-top: 2px; */
+    }
+
+    .decorative-bg-desktop-footer {
+        display: none;
+    }
+
+    .decorative-bg-mobile-footer {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        margin-top: 10px;
+    }
+
+    .story-one, .story-two, .story-three {
+        flex-direction: column-reverse;
+        /* align-items: center;
+        justify-content: center; */
+        gap: 80px;
+    }
+
+    .story-one .text, .story-two .text, .story-three .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 40px 75px 40px;
+    }
+    .story-one .text p, .story-two .text p, .story-three .text p {
+        text-align: center;
+    }
+       
+    .story-one img, .story-two img, .story-three img {
+        width: 200px;
+        padding: 0px;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .story-two h2 {
+        text-align: center;
+    }
+
+    .ready-to-build {
+        text-align: center;
+    }
+    .ready-to-build p {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        gap: 75px;
+        padding: 30px 20px;
+    }
+
+    footer .one {
+        width: 95%;
+        margin-left: 35px;
+        padding-bottom: 20px;
+    }
+
+
+    footer .two {
+        width: 85%;
+    }
+
+
+    footer .two .mail {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    footer .two .mail .box {
+        width: 100%;
+    }
+
+    footer .two .mail .subscribe {
+       padding: 9px 14px;
+    }
+
+}

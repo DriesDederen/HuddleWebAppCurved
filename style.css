@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --LightPink: hsl(321, 100%, 78%);
+    --LightRed: hsl(0, 100%, 63%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --VeryPaleBlue: hsl(207, 100%, 98%);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    /* height: auto; */
+    background-color: white;
+}
+
+.container header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container header img {
+    padding: 40px 35px;
+    width: 175px;
+}
+
+.container header .try-it-free {
+    width: 125px;
+    height: 35px;
+    margin-top: 35px;
+    margin-right: 20px;
+    /* height: 100%; */
+    background-color: white;
+    color: var(--LightPink);
+    border-color: var(--LightPink);
+    padding: 5px 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    border-style: solid;
+}
+
+.container .heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 135px 100px 50px 100px;
+}
+
+.container .heading-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--VeryDarkCyan);
+}
+
+.container .heading-container p {
+    /* padding: 20px 400px; */
+    width: 55%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: var(--VeryDarkCyan);
+    font-weight: 400;
+    text-align: center;
+}
+
+.container .heading-container button {
+    border: none;
+    color: var(--VeryPaleBlue);
+    background-color: var(--Pink);
+    border-radius: 50px;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 17px 35px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container .heading-container img {
+    width: 65%;
+    margin-top: 35px;
+}
+
+.container .stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+    padding-bottom: 150px;
+}
+
+.container .stats .summary {
+    padding: 50px;
+}
+
+.container .stats .summary img {
+    width: 50px;
+}
+
+.container .stats .summary .bigstat {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--VeryDarkCyan);
+}
+
+.container .stats .summary .infostat {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--VeryDarkCyan);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.story-one, .story-two, .story-three {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 120px;
+    
+}
+
+.story-one, .story-three {
+    background-color: var(--VeryPaleBlue);
+    background-size: cover;
+}
+
+.decorative-bg-desktop {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.decorative-bg-mobile {
+    display: none;
+}
+
+.decorative-bg-desktop-footer {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.decorative-bg-mobile-footer {
+    display: none;
+}
+
+.story-one .text, .story-three .text {
+    padding-left: 90px;
+}
+
+.story-one .text h2, .story-two .text h2, .story-three .text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--VeryDarkCyan);
+    padding-bottom: 20px;
+}
+
+.story-one .text p, .story-two .text p, .story-three .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.story-one img, .story-three img {
+    width: 30%;
+    scale: 1;
+    height: auto;
+    padding-right: 90px;
+}
+
+.story-two {
+    flex-direction: row-reverse;
+}
+
+.story-two img {
+    padding-left: 90px;
+    width: 30%;
+    scale: 1;
+    height: auto;
+}
+
+.story-two .text {
+    padding-right: 90px;
+}
+
+.ready-to-build {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.ready-to-build p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--VeryDarkCyan);
+}
+
+.ready-to-build button {
+    border: none;
+    background-color: var(--Pink);
+    color: var(--VeryPaleBlue);
+    font-size: 15px;
+    font-family: 'Sans Open', sans-serif;
+    font-weight: 600;
+    padding: 20px 60px;
+    border-radius: 50px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--VeryDarkCyan);
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 100px 100px 100px;
+    gap: 250px;
+}
+
+
+footer .one {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 20px;
+}
+
+footer .two {
+    width: 50%; 
+}
+
+footer .one .logo-footer {
+    width: 200px;
+    /* padding-bottom: 50px; */
+}
+
+footer .one p {
+    color: var(--VeryPaleBlue);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-right: 30px;
+}
+
+footer .one .contact  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer .two {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .two .newsletter-h {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--VeryPaleBlue);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .two .newsletter-p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--VeryPaleBlue);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+footer .two .mail {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+}
+
+footer .two .mail .box {
+    width: 220px;
+    height: 30px;
+    background-color: var(--VeryPaleBlue);
+    /* border: solid; */
+    border-radius: 5px;
+}
+
+footer .two .mail .subscribe {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--VeryPaleBlue);
+    background-color: var(--Pink);
+    font-weight: 600;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
